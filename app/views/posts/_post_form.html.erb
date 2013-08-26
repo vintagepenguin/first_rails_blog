@@ -1,0 +1,12 @@
+<%= form_for @post, url: {action: form_action} do |f| %>
+  <p>
+    <%= label_tag (:title) %>
+    <%= f.text_field :title %>
+  </p> 
+  <p>
+    <%= label_tag (:body) %>
+    <%= f.text_area :body %></p> 
+  <p>
+    <%= f.submit "#{form_action.titleize} Post" %>
+  </p>
+<% end %>

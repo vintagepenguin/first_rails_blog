@@ -1,0 +1,27 @@
+/* HEADER AND BODY */
+
+body, nav > ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #eee;
+  height: 60px;
+  line-height: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+/* MAIN CONTENT */
+
+
+
+/* FOOTER */
+
